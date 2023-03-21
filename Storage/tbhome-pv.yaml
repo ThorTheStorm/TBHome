@@ -1,0 +1,12 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: gitea-pv-storage
+  labels:
+      type: local
+  namespace: gitea
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+  -  ReadWriteOnce
