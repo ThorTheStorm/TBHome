@@ -6,8 +6,6 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: public
     cert-manager.io/cluster-issuer: tbhome-letsencrypt-prod
-    kubernetes.io/tls-acme: "true"
-    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
 spec:
   rules:
