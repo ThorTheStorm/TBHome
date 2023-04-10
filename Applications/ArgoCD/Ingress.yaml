@@ -22,4 +22,4 @@ spec:
   tls:
     - hosts:
       - argocd.prod.tbhome.no
-      secretName: argocd-secret
+      secretName: tbhome-argocd-secret
